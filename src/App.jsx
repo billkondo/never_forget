@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Test from './test';
+import { Button } from 'evergreen-ui';
 
 const App = () => (
   <div>
     <p>React here!</p>
-    <Test />
+    <Button>I am using Evergreen!</Button>
   </div>
 );
 
