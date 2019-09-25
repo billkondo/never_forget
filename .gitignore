@@ -3,3 +3,6 @@
 
 # Dependencies folder
 /node_modules
+
+# MAC configuration
+.DS_Store
