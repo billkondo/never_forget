@@ -1,11 +1,11 @@
 {
-  "name": "never_forget",
+  "name": "never_forget_app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/App.jsx",
   "scripts": {
     "build-dev": "webpack --mode development",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --host 0.0.0.0"
   },
   "keywords": [],
   "author": "",

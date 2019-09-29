@@ -5,7 +5,7 @@ import { Button } from 'evergreen-ui';
 
 const App = () => (
   <div>
-    <p>React here!</p>
+    <p>Never forget</p>
     <Button>I am using Evergreen!</Button>
   </div>
 );

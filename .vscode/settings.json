@@ -1,0 +1,4 @@
+{
+  "eslint.workingDirectories": ["./app", "./server"],
+  "eslint.lintTask.enable": true
+}

@@ -1,8 +1,8 @@
 # Distribution folder
-/dist
+dist/
 
 # Dependencies folder
-/node_modules
+node_modules/
 
-# MAC configuration
+# MAC configuration file
 .DS_Store

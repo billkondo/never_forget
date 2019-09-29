@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  server:
+    build: ./server
+    volumes:
+      - ./server:/never_forget/server
+    command: npm run dev
+
+  app:
+    build: ./app
+    volumes:
+      - ./app:/never_forget/app
+    command: npm run start
+    links:
+      - server
+    ports:
+      - '8080:8080'
